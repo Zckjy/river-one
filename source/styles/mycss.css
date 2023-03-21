@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(151deg, #2A0653 30%, #1A29C7 100%);
+}
+
+.card {
+    background-color: white;
+    color: #212529;
+}
+
+.card a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.header>.navbar .container-fluid {
+    background-color: #2E0E3B;
+}
+
+
+.footer-text{
+    color: #dfe3e6;
+    margin: auto auto;
+}
+
+footer {
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 3px;
+    border-top-color: white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 15px;
+}
+
+.rights-to{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.media-links {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(190, 190, 190);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img{
+    width: 90px;
+}
+
+.navbar-toggler {
+    background-color: rgb(190, 190, 190);
+}
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
