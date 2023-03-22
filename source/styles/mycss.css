@@ -68,5 +68,10 @@ footer {
 @media (max-width: 755px){
     .carousel-indicators{
         display: none;
-    }
+    }   
+    .media-links {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 }
