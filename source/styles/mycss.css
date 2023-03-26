@@ -2,12 +2,26 @@
 
 body {
     font-family: Roboto, serif;
-    background: linear-gradient(151deg, #2A0653 30%, #1A29C7 100%);
+    background: #8DA185;;
 }
 
 .card {
-    background-color: white;
+    background-color: #C6D1D4;
     color: #212529;
+    border-radius: 15px;
+}
+.card img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card .btn{
+    background-color: #748D9A;
+    border-width: 0px;
+}
+
+.navbar {
+    background: linear-gradient(31deg, #1E2D21 0%, #3C533A 100%);
 }
 
 .card a{
@@ -16,24 +30,14 @@ body {
 }
 
 .header>.navbar .container-fluid {
-    background-color: #2E0E3B;
+    background-color: #9d3ac4;
 }
+
 
 
 .footer-text{
-    color: #dfe3e6;
+    color: #212529;
     margin: auto auto;
-}
-
-footer {
-    margin-top: 2rem;
-    border-style: solid;
-    border-width: 3px;
-    border-top-color: white;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    padding: 15px;
 }
 
 .main-footer {
@@ -42,6 +46,19 @@ footer {
     bottom: 0;
     width: 100%;
     height: 75px;
+}
+
+footer {
+
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 3px;
+    border-top-color: #C6D1D4;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 15px;
+
 }
 
 .rights-to{
@@ -61,10 +78,6 @@ footer {
     color: rgb(190, 190, 190);
 }
 
-.btn-primary {
-    margin-top: 0.7em;
-}
-
 .navbar-light .navbar-nav .nav-link.active {
     color: rgb(255, 255, 255);
 }
@@ -77,8 +90,12 @@ footer {
     background-color: rgb(190, 190, 190);
 }
 
+.btn-primary {
+    margin-top: 0.7em;
+}
+
 @media (max-width: 755px){
-    .carousel-indicators{
+    .carousel-indicators{   
         display: none;
     }
 }
@@ -89,6 +106,5 @@ footer {
     align-items:center;
     margin-bottom: 15px;
 }
+
 }
-
-
