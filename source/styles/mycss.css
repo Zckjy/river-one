@@ -20,6 +20,17 @@ body {
     border-width: 0px;
 }
 
+.goods {
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+    border-style: solid;
+    border-width: 3px;
+    border-top-color: #C6D1D4;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
 .navbar {
     background: linear-gradient(31deg, #1E2D21 0%, #3C533A 100%);
 }
