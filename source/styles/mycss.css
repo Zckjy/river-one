@@ -79,6 +79,14 @@ footer {
     
 }
 
+.for-laptop {
+    display: flex;
+}
+
+.for-phone {
+    display: none;
+}
+
 .media-links {
     display: flex;
     justify-content: right;
@@ -117,9 +125,16 @@ footer {
     align-items:center;
     margin-bottom: 15px;
 }
-    .goods {
+.goods {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
 }
 
+.for-laptop {
+    display: none;
+}
+
+.for-phone {
+    display: flex;
+}
 }
