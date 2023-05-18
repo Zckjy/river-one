@@ -13,9 +13,13 @@ h6 {
   font-weight: normal;
 }
 
+.row_form_two{
+  display: none;
+}
 
 .form__btns button{
   color: #212529;
+  margin-right: 10px;
 }
 
 .modal-footer a, .modal-footer button{
@@ -221,4 +225,15 @@ h6 {
   }
   .form-check label {
     margin-left: 10px;
+  }
+
+  @media (max-width: 750px){
+  .row_form{
+    display: none;
+  }
+
+  .row_form_two{
+    display: block;
+  }
+
   }
