@@ -5,6 +5,50 @@ body {
     background: #8DA185;;
 }
 
+
+p.lang {
+    top: 0;
+    right: 15px;
+    height: 30px;
+    font-size: 0.7em;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 15px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: right;
+    z-index: 5;
+    padding: 0;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+  }
+  p.lang a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+
+  p.lang a:hover {
+    color: white;
+    text-decoration: none !important;
+    outline: none !important;
+  }
+  p.lang a:active, p.lang a:focus {
+    outline: none !important;
+    text-decoration: none !important;
+    color: white;
+  }
+  p.lang a.active {
+    color: white;
+  }
+
+  p.lang {
+    font-family: Roboto, serif;
+
+    font-size: 1em;
+  }
+
+
 .card {
     background-color: #C6D1D4;
     color: #212529;
