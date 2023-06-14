@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://zckjy.github.io/river-one/source/styles/mycss.css">
+    <link rel="stylesheet" href="source/styles/form.css">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://zckjy.github.io/river-one/source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://zckjy.github.io/river-one/source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://zckjy.github.io/river-one/source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="https://zckjy.github.io/river-one/source/files/favicon_io/site.webmanifest">
+    <title>River 1 | Оформление заказ</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://zckjy.github.io/river-one/"><img src="https://zckjy.github.io/river-one/source/files/logo.png" alt="Логотип Речная 1"></a>
+                  <p class="lang">
+                    <a href="https://zckjy.github.io/river-one/ru" class="lang-href">RU</a><span> | </span>
+                    <a href="https://zckjy.github.io/river-one/en" class="active lang-href">EN</a>
+                </p>
+            </div>
+          </nav>
+    </header>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="staticBackdropLabel">Внимание!</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Убедитесь, что вы правильно ввели все данные и не оставили пустых полей. В противном случае,
+                        заказ не будет одобрен! Если Вы закончили всё заполнять, то нажмите на кнопку "Готово", и Вас
+                        перекинет на главную страницу</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Вернуться к
+                        заполнению</button>
+                    <a href="https://zckjy.github.io/river-one/ru" class="btn btn-secondary">Готово</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section data-sidemenu-theme="white" data-section-id="order" class="section order__section section--font--white ">
+        <div class="container form1 card">
+            <h2 class="section__title">заказать услугу</h2>
+            <form class="form" autocomplete="off">
+                <input type="hidden" name="to" value="zckjy2006@gmail.co">
+                <div class="form__col">
+                    <div class="form__row">
+                        <label class="form__block">
+                            <div class="form__title">Имя</div>
+                            <input class="form__input" type="text" name="name">
+                        </label>
+                        <label class="form__block">
+                            <div class="form__title">Фамилия</div>
+                            <input class="form__input" type="text" name="phone">
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label class="form__block">
+                            <div class="form__title">Телефон</div>
+                            <input class="form__input" type="text" name="street">
+                        </label>
+                    </div>
+                    <div class="form__row row_form">
+
+                        <label class="form__block col-md-6">
+                            <div class="form__title" name="home">Улица</div>
+                            <input class="form__input" type="text">
+                        </label>
+
+                        <label class="form__block ">
+                            <div class="form__title" name="appartment">Дом</div>
+                            <input class="form__input" type="text">
+                        </label>
+
+
+                        <label class="form__block">
+                            <div class="form__title" name="floor">Напишите "мяу"</div>
+                            <input class="form__input" type="text">
+                        </label>
+                    </div>
+
+                    <div class="form__row row_form_two">
+                        <div class="form__row row_form_two">
+                            <label class="form__block col-md-6 row_form_two">
+                                <div class="form__title row_form_two" name="home">Улица</div>
+                                <input class="form__input row_form_two" type="text">
+                            </label>
+                        </div>
+                        <div class="form__row row_form_two">
+                            <label class="form__block row_form_two">
+                                <div class="form__title row_form_two" name="appartment">Дом</div>
+                                <input class="form__input row_form_two" type="text">
+                            </label>
+                        </div>
+                        <div class="form__row row_form_two">
+                            <label class="form__block row_form_two">
+                                <div class="form__title row_form_two" name="floor">Напишите "мяу"</div>
+                                <input class="form__input row_form_two" type="text">
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form__col">
+                    <div class="form__row form__row--textarea">
+                        <label class="form__block">
+                            <div class="form__title">Комментарий</div>
+                            <textarea name="comment" class="form__input form__input--textarea"></textarea>
+                        </label>
+                    </div>
+                    <div class="form__controls form__controls--radio" style="display: block;">
+                        <div class="testik" style="display: block;">
+                            <label class="radio">
+                                <input name="option" type="radio" class="radio__elem">
+                                <div class="radio__visible"></div>
+                                <div class="radio__title">Оплата "Привет, пап, что делаешь?)"</div>
+                            </label>
+                        </div>
+                        <div class="testik" style="display: block;">
+                            <label class="radio">
+                                <input name="option" type="radio" class="radio__elem">
+                                <div class="radio__visible"></div>
+                                <div class="radio__title">Оплата наличными</div>
+                            </label>
+                        </div>
+                        <div class="testik" style="display: block;">
+                            <label class="radio">
+                                <input name="option" type="radio" class="radio__elem">
+                                <div class="radio__visible"></div>
+                                <div class="radio__title">Оплата душой</div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form__controls form__controls--checkbox form-check" style="display: block;">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate">
+                            Не перезванивать
+                        </label>
+                    </div>
+
+                    <div class="form__btns">
+                        <button type="button" class="btn btn-primary form-btn" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Заказать
+                        </button>
+                        <input type="reset" class="btn form-btn" value="Очистить">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <!--
+<footer>
+            <div class="container-fluid" >
+                <div class="row rights-to">
+                    <div class="col-lg-4 col-md-12 footer-text text-center">
+                        <p>Rights are not protected yet 2023</p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 footer-text text-center">
+
+                    </div>
+                    <div class="col-lg-4 col-md-12 media-links">
+                        <a href="https://vk.com/bibilibiboy" target="_blank"><img
+                                style="width: 40px; margin-inline: 1em;"
+                                src="https://zckjy.github.io/river-one/source/files/vk.png" alt="Логотип Вконтакте"></a>
+                        <a href="https://t.me/chtototsk" target="_blank"><img style="width: 40px; margin-inline: 1em;"
+                                src="https://zckjy.github.io/river-one/source/files/tg.png" alt="Логотип Telegram"></a>
+                        <a href="https://instagram.com/taya_smk?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                                style="width: 40px; margin-inline: 1em;"
+                                src="https://zckjy.github.io/river-one/source/files/inst.png"
+                                alt="Логотип Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </section>
