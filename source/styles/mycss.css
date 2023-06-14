@@ -84,6 +84,8 @@ p.lang {
     color: #212529;
 }
 
+
+
 .header>.navbar .container-fluid {
     background-color: #9d3ac4;
 }
@@ -146,7 +148,7 @@ footer {
 }
 
 .navbar-brand img{
-    width: 90px;
+    width: 100px;
 }
 
 .navbar-toggler {
